@@ -1,0 +1,21 @@
+[debug] [2024-03-19T21:10:51.587Z] ----------------------------------------------------------------------
+[debug] [2024-03-19T21:10:51.592Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ronak\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-03-19T21:10:51.593Z] CLI Version:   13.5.1
+[debug] [2024-03-19T21:10:51.594Z] Platform:      win32
+[debug] [2024-03-19T21:10:51.594Z] Node Version:  v18.17.1
+[debug] [2024-03-19T21:10:51.596Z] Time:          Wed Mar 20 2024 00:10:51 GMT+0300 (East Africa Time)
+[debug] [2024-03-19T21:10:51.597Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-03-19T21:10:51.612Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-03-19T21:10:51.613Z] > authorizing via signed-in user (ronaks494@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\ronak\OneDrive\Desktop\Patel-sDhaba-main\main-project
+

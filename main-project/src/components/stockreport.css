@@ -1,0 +1,76 @@
+.stock-report-container {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center items vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+.logo {
+  margin-top: -150px;
+}
+
+.abc{
+  margin-left: 33px;
+}
+.options {
+  display: flex;
+  flex-direction: column; /* Display options vertically */
+  align-items: center; /* Center options horizontally */
+  margin-bottom: 20px;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.option input[type="text"] {
+  padding: 8px;
+  font-size: 16px;
+  width: 200px;
+}
+
+.option button {
+  padding: 10px 10px;
+  font-size: 16px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: -1px;
+}
+
+.stock-table {
+  margin-top: 20px;
+}
+
+.stock-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.stock-table th,
+.stock-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.stock-table th {
+  background-color: #f2f2f2;
+}
+
+.stock-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.stock-table tbody tr:hover {
+  background-color: #ddd;
+}

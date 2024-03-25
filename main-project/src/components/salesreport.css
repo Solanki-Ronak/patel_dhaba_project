@@ -1,0 +1,132 @@
+.sale-report-container {
+  margin-top: 150px;
+  text-align: left;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.logo {
+  display: flex;
+  justify-content: center; /* Center the logo horizontally */
+  align-items: center; /* Center the logo vertically */
+  margin-bottom: 20px;
+  height: 60px;
+}
+
+.logo img {
+  height: 60px; /* Set the height of the logo */
+}
+
+.options {
+  display: flex;
+  flex-direction: column; /* Change flex direction to column */
+  align-items: center; /* Align items to flex-start */
+  width: 100%;
+  margin-top: 20px; /* Add this line or adjust as needed */
+  /* Allow options to occupy remaining space */
+  flex-grow: 1;
+  
+}
+
+.option {
+  display: flex;
+  align-items: center;   /* Increase margin bottom for better separation */
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+
+
+.option input[type="date"],
+.option input[type="text"],
+.option select {
+  padding: 8px;
+  font-size: 16px;
+  
+  
+}
+
+.from{
+  margin-left: 95px;
+}
+
+.from input{
+  width: 200px;
+}
+
+.to{
+  margin-left: 115px;
+}
+.to input{
+  width: 200px;
+}
+.productName{
+  margin-left: 30px;
+  width: 217px;
+  align-items: center;
+}
+
+.productCode{
+  margin-left: 32px;
+}
+
+.customerID{
+  margin-left: 39px;
+}
+
+.prodid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-top: -25px;
+  margin-left: -479px;
+}
+
+.option button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 120px;
+}
+
+.sales-table {
+  margin-top: 20px;
+}
+
+.sales-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.sales-table th,
+.sales-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.sales-table th {
+  background-color: #f2f2f2;
+}
+
+.sales-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.sales-table tbody tr:hover {
+  background-color: #ddd;
+}
+
+/* Content left alignment */
+.sale-report-container > *:not(.sales-table) {
+  text-align: left;
+}
